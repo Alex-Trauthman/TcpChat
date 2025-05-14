@@ -1,4 +1,4 @@
-package main;
+package swing;
 
 import java.awt.BorderLayout;
 import java.io.BufferedReader;
