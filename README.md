@@ -20,7 +20,7 @@ javac ChatServer.java ChatClient.java
 
 # Iniciar o servidor (em uma máquina)
 cd ..
-java main/ChatServer <porta>
+java main/ChatServer
 
 # Iniciar o cliente (em outra máquina)
 cd ..
@@ -45,5 +45,12 @@ O projeto do swing é a representação visual em apenas uma máquina.
 #Fotos (1 arquivos da pasta main em diferentes máquinas) (2 arquivos da pasta swing em uma máquina)
 ![Screenshot 2025-05-14 003237](https://github.com/user-attachments/assets/0cf965b9-1948-4eb6-a191-c4201ef2516e)
 ![WhatsApp Image 2025-05-13 at 19 29 23_728de672](https://github.com/user-attachments/assets/ac5e01a6-c908-4bf9-b21b-43bffa24796d)
+
+
+**Importante !!! por padrão, a porta do servidor é 99, esta pode ser mudada alterando**
+```bash
+private static final int PORT = 99;
+```
+**na linha 15 de ChatServer**
 
 
