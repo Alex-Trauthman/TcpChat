@@ -1,6 +1,6 @@
 # TcpChat
 
-Este projeto implementa um chat TCP com duas versões distintas:
+Criado por Michael Silva Senna e Alex Andrade Trauthman, este projeto implementa um chat TCP com duas versões distintas:
 
 ---
 
